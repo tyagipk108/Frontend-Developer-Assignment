@@ -101,6 +101,7 @@ text-decoration: none;
     background-color: blue;
     border-radius: 20px;
     width: 217px;
+    font-size: 14px;
 }
 
 .purchase-btn{
@@ -140,6 +141,7 @@ label input[type='password']{
 input[type='checkbox']{
     position: relative;
     cursor: pointer;
+    margin-top: 0px;
 }
 
 .startup{
@@ -186,6 +188,7 @@ h5 {
     border-radius: 20px;
     width: 217px;
     margin-top: -70px;
+    font-size: 14px;
 }
 
 .another login acc{
@@ -195,4 +198,5 @@ h5 {
     border: none;
     font-size: x-small;
     color: rgb(12, 195, 12);
+    background-color: white;
 }
