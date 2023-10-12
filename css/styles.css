@@ -1,0 +1,198 @@
+* {
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0px;
+    background: #1E0E62;
+}
+
+
+.header{
+    margin-top: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+.main-menu{
+        color: white;
+        display: flex;
+        margin-top: 32px;
+        margin-left: 150px;
+        justify-content: start;
+        float: left;
+}
+
+.main-menu>li {
+    list-style-type: none ;
+    margin: 10px;
+}
+
+.main-menu>ul {
+    color: white;
+    list-style-type: none;
+    padding-left: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+.main-menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+.main-menu li a{
+color:white; 
+text-decoration: none;
+}
+
+.main-menu>li.hello{
+    color:gray; 
+}
+
+.text{
+    margin-left: 10rem;
+    max-width: 20%;
+    display: inline-table;
+    float: left;
+}
+
+.main-text{
+    color: white;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+
+.p-text{
+    color: white;
+}
+
+.sign-up{
+    width: 306px;
+    height: 500px;
+    margin-left: 36%;
+    background-color: white;
+    border: 2px solid black;
+    float: left;
+    margin-top: -23px;
+    border-radius: 6px;
+}
+
+.sign-in-button {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    margin: 2px 1px;
+    cursor: pointer;
+
+}
+.sign-in-button {
+    background-color: blue;
+    border-radius: 20px;
+    width: 217px;
+}
+
+.purchase-btn{
+    border-radius: 53px;
+    background-color: #dd1980;
+    border: none;
+    padding: 11px
+}
+
+.top-bar-conatiner{
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}   
+
+label{
+    padding: 12px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+label input[type='email']{
+    border-radius: 23px;
+    padding: 8px;
+    width: 200px
+}
+
+label input[type='password']{
+    border-radius: 23px;
+    padding: 8px;
+    width: 200px
+}
+
+input[type='checkbox']{
+    position: relative;
+    cursor: pointer;
+}
+
+.startup{
+    font-size: 20px;
+}
+.hr_line{
+    font-size: 14px;
+}
+h5 {    
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    color: gray;
+  }
+  h5:before, h5:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  h5:before {
+    margin-right: 13px;
+    margin-left: 53px;
+}
+  h5:after {
+    margin-left: 14px;
+    margin-right: 49px;
+}
+
+.Login-via-twitter-button{
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 8px;
+        margin: 2px 1px;
+        cursor: pointer;    
+
+}
+.Login-via-twitter-button{
+    background-color: rgb(19, 162, 219);
+    border-radius: 20px;
+    width: 217px;
+    margin-top: -70px;
+}
+
+.another login acc{
+    color: rgb(235, 235, 235);
+}
+.sign-in-another-account-button{
+    border: none;
+    font-size: x-small;
+    color: rgb(12, 195, 12);
+}
